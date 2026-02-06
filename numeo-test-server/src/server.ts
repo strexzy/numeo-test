@@ -2,7 +2,6 @@ import express from "express";
 import { createServer } from "http";
 import { Server, Socket } from "socket.io";
 import cors from "cors";
-import path from "path";
 import { handleAudioTranslation } from "./utils/handle-audio-translation";
 
 const app = express();
